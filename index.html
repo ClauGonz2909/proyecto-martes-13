@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estilos de texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section class="sec-1">
+        <div>
+            <h2>ESTILOS DE TEXTO</h2>
+
+            <ol>
+            
+
+<li>FONT-FAMILY: Es una propiedad que cambia el tipo de tipografia.
+    <code> h1 { font-family:Arial;}</code>
+</li>
+
+<li>FONT-SIZE: Es un propiedad que cambia el tamaño de la fuente. 
+    <code> h1 { font-size:16px;}</code>
+
+</li>
+<li>LINE-HEIGHT: Es un propiedad que cambia la distancia entre lineas.
+    <code> h1 { line-height:20px;}</code>
+
+</li>
+
+<li>TEXT-ALIGN: Es una propiedad que permite mover el texto( left-center-right)
+    <code> h1 { text-align:center;}</code>
+
+</li>
+
+<li>FONT-WEIGHT:Es una propiedad que permite cambiar la intensidad del texto.
+    <code> h1 { font-weight:300;}</code>
+
+</li>
+<li>TEXT-DECORATION: Es una propiedad que permite subrayar un texto.
+    <code> h1 { text-decoration:none;}</code>
+
+</li>
+
+            </ol>
+         </div>
+    
+
+        </section>
+
+
+
+
+
+        <section class="sec-2">
+
+         <div>
+            <h2>ESTILOS DE TEXTO</h2>
+
+            <ol>
+            
+
+<li>SELECTOR DE ETIQUETA: Es el elemento de html que se le va aplicar propiedades y valores.
+
+     <code> 
+        <p>este es un parrafo</p>
+        <p>este es otro parrafo</p>
+    </code>
+
+    <code>
+        p {color:green}
+    </code> 
+
+</li>
+
+<li>SELECTOR DE CLASES: Se le puede aplicar estilos usando punto (.) a elementos de html. 
+    <code>
+        <p class="selector-de-clase"></p>
+    </code>
+
+    <code>
+        .selector-de-clase{
+        color:red;
+        }
+    </code> 
+
+</li>
+<li>SELECTOR DE ID: Se le puede aplicar estilos usando punto (#) a elementos de html.
+    <code>
+        <p id="selector-id"></p>
+    </code>
+
+    <code>
+        #selector-id{
+            background:grey
+        }
+    </code>
+
+
+</li>
+
+
+
+<li>SELECTOR DE DESCENDENCIA: Es para aplicar propiedades a elementos que comparten una   relacion de descencia (padre e hijo)
+    <code> 
+        <section>
+            <div >
+                <p>soy un parrafo </p>
+            </div>
+        </section>
+    </code> 
+    
+    <code>
+        section div p {
+            text-align:center;
+        }
+    </code>
+
+</li>
+<li>SELECTOR DE HIJO DIRECTO: Se le aplica propiedades a todos los hijos menos lo que no son directos.
+    <code> 
+
+        <section>
+            
+               <p>parrafo prueba 1</p>
+            
+            <div>
+                <p>parrafo prueba 2</p>
+             </div>
+
+        </section>
+    </code>
+    <code>
+        section + p{
+            color:blue
+        }
+    </code>
+
+</li>
+
+
+<li>SELECTOR HERMANO SIGUIENTE O ADYANCENTE: Se le aplica propiedades al elemento que sigue despues del elemento span como vemos en el ejemplo de abajo
+    <code> 
+        <section>
+            
+         <p> parrafo 1</p>
+         <p> parrafo 2</p>
+         <span>este es un span</span>
+         <p>parrafo 3</p>
+         <p> parrafo 4</p>
+
+     </section>
+    </code>
+        <code>
+            span + p {
+                color:red;
+            }
+        </code>
+
+
+</li>
+
+
+<li>SELECTOR DE HERMANOS SIGUIENTES O ADYACENTES: Se le aplica propiedad a todos los elementos que siguen despues del span como se ve en el ejemplo.
+    <code>
+    <section>
+            
+        <p> parrafo 1</p>
+        <p> parrafo 2</p>
+        <span>este es un span</span>
+        <p>parrafo 3</p>
+        <p> parrafo 4</p>
+
+    </section>
+   </code>
+       <code>
+           span ~ p {
+               color:red;
+           }
+       </code>
+
+</li>
+<li>SELECTOR DE ANIDAMIENTO: Es para especificar donde quieres aplicar la propiedad dentro de un elemento.
+
+    <code>
+        <div class="selector-anidamientos">
+            <p>este es un texto</p>
+        </div>
+    </code>
+    <code>
+        .selector-anidamiento p{
+            color:green;
+        }
+    </code>
+
+</li>
+
+            </ol>
+         </div>
+    </section>
+
+    </main>
+
+    
+</body>
+</html>

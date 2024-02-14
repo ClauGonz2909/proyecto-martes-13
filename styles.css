@@ -1,0 +1,48 @@
+
+body {
+    margin:0;
+}
+
+main {
+    
+}
+.sec-1 {
+    background-color: aqua;
+    padding:0px 20px;
+    
+}
+
+.sec-1 h2 {
+    text-align: center;
+    margin:0;
+    padding: 50px;
+    
+}
+
+.sec-1 code {
+    display: block;
+    padding: 10px;
+
+}
+.sec-1 div ol li{
+    padding-bottom:15px ;
+    
+} 
+
+.sec-1 ol{
+    margin:0px
+}
+.sec-2{
+    background-color: rgb(213, 196, 175);
+    padding:0px: 20px;
+
+}
+
+.sec-2 h2 {
+    margin:0px;
+    padding:50px;
+    text-align: center;
+}
+.sec-2 div li {
+    padding: 15px;
+}
